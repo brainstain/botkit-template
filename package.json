@@ -13,8 +13,15 @@
   "author": "Stève Sfartz (Cisco DevNet) <stsfartz@cisco.com>",
   "license": "MIT",
   "dependencies": {
-    "botkit": "0.6.14",
-    "node-env-file": "0.1.8"
+    "body-parser": "^1.15.2",
+    "botkit": "^0.6.12",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "node-env-file": "^0.1.8",
+    "request": "^2.79.0",
+    "wordfilter": "^0.2.6",
+    "botkit-middleware-watson": "^1.7.1",
+    "botkit-storage-mongo": "^1.0.7"
   },
   "repository": {
     "type": "git",
